@@ -50,6 +50,7 @@ set scrolloff=5
 set autowrite
 set clipboard+=unnamed
 
+autocmd BufReadPost * normal! g`
 augroup rescur
 autocmd!
 autocmd bufreadpost * call setpos(".", getpos("'\""))
