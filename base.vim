@@ -1,5 +1,4 @@
 vim9script
-
 filetype plugin indent on
 syntax enable
 syntax on
@@ -25,9 +24,7 @@ set colorcolumn=100
 set ttimeout
 set ttimeoutlen=100
 # set list
-    
 g:mapleader = ";"
-
 set mouse=a
 set autoread
 # 切换文件自动保存
@@ -37,7 +34,6 @@ set nobackup
 set nowritebackup
 set noswapfile
 set scrolloff=4
-
 set showcmd
 set showmatch
 # 底部空行
@@ -46,7 +42,6 @@ set updatetime=100
 set hidden
 set signcolumn=yes
 set shortmess+=c
-
 # 系统剪贴板和vim剪贴板公用
 set clipboard+=unnamed
 set guioptions-=T
