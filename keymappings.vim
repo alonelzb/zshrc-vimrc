@@ -1,7 +1,4 @@
 vim9script
-
-
-
 # 插入模式映射
 # inoremap <esc> <nop>
 inoremap jk <esc>
@@ -14,9 +11,7 @@ nnoremap dw diw
 inoremap <C-s> <Cmd>w<CR>
 inoremap <C-a> <Home>
 inoremap <C-e> <End>
-
 # 普通模式映射
-
 #nnoremap <Leader>ev :vs $HOME/.vimrc<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
@@ -37,17 +32,11 @@ noremap <C-h> <C-w>h
 noremap <C-l> <C-w>l
 noremap <Leader><Leader> :e $MYVIMRC<CR>
 
-
-
-
 # 操作等待映射
 onoremap ' t'
-onoremap x i'
-onoremap b )
-
+onoremap x i' onoremap b )
 # 命令模式
 #cnoremap vimrc e $MYVIMRC<CR>
-
 
 # 缩写
 iab js javascript
