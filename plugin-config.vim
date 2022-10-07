@@ -1,21 +1,15 @@
 vim9script
-
 # coc.nvim
 # 选择补全
 #inoremap <silent><expr> <TAB> coc#refresh()
 inoremap <silent><expr> <TAB> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
+\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 # coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 vmap <leader>f  <Plug>(coc-format-selected)
 #nnoremap <leader>f  <Plug>(coc-format-selected)
-
-# coc-explorer
-nmap <silent><Leader>e <Cmd>CocCommand explorer<CR>
-
-# coc-snippets
-#imap <C-l> <Plug>(coc-snippets-expand)
+# coc-explorer nmap <silent><Leader>e <Cmd>CocCommand explorer<CR>
+# coc-snippets #imap <C-l> <Plug>(coc-snippets-expand)
 
 # indentLine
 # json文件引号
