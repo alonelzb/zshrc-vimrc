@@ -1,0 +1,66 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "json",
+    "vim"
+  ],
+  // 禁用默认选中
+  // "suggest.noselect": true,
+
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.bracketSameLine": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "avoid",
+  "prettier.vueIndentScriptAndStyle": true,
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "snippets.ultisnips.enable": false,
+  "snippets.extends": {
+    "vue": ["html", "css", "javascript", "typescript", "elementvue"]
+  },
+  //  vscode snippets路径
+  //"$HOME/.config/coc/snippets/element-plus"
+  "snippets.textmateSnippetsRoots": ["$HOME/.config/coc/snippets"],
+
+  // ale
+  //"diagnostic.displayByAle": true,
+
+  //"suggest.maxCompleteItemCount": 10,
+  "suggest.completionItemKindLabels": {
+    "constructor": "\ufb25",
+    "keyword": "\uf1de",
+    "variable": "\ue79b",
+    "value": "\uf89f",
+    "operator": "\u03a8",
+    "function": "\u0192",
+    "reference": "\ufa46",
+    "constant": "\uf8fe",
+    "method": "\uf09a",
+    "struct": "\ufb44",
+    "class": "\uf0e8",
+    "interface": "\uf417",
+    "text": "\ue612",
+    "enum": "\uf435",
+    "enumMember": "\uf02b",
+    "module": "\uf40d",
+    "color": "\ue22b",
+    "property": "\ue624",
+    "field": "\uf9be",
+    "unit": "\uf475",
+    "event": "\ufacd",
+    "file": "\uf723",
+    "folder": "\uf114",
+    "snippet": "\ue60b",
+    "typeParameter": "\uf728",
+    "default": " "
+  }
+}
